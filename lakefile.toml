@@ -1,0 +1,8 @@
+name = "nutproof"
+version = "0.1.0"
+defaultTargets = ["nutproof"]
+
+[[lean_lib]]
+name = "nutproof"
+srcDir = "."
+globs = ["NutProof", "P2PKLedger", "DoubleSpend", "T"]
